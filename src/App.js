@@ -1,10 +1,11 @@
-import './App.css';
-import Header from './components/header';
+import Navbar from "./components/Navbar/Navbar";
+import "./App.css";
 
 function App() {
   return (
-    <div className="BattleOrganizer">
-      <Header></Header>
+    <div>
+      <Navbar />
+      
     </div>
   );
 }
