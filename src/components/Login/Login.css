@@ -1,17 +1,83 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+label {
+    font-family: 'Fjalla One', sans-serif;  
+}
+input {
+    height: 41px;
+    border-radius: 5px;
+    border: 1px #58ccad;
+    box-shadow: 1px 3px 6px #61e1bb;
+}
+button {
+    height: 50px;
+    width: 42%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 0px;
+    box-shadow: 1px 3px 6px #384b4c; 
+}
+.container {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 43%;
     height: 100%;
-    justify-content: center;
     align-items: center;
+    margin: 0px;
+    background: #f4fefd;
+    box-shadow: 0 0 1em #326e67;
+    justify-content: center;
+
 }
 .form-login-container {
-    background: #f4fefd;
-    height: 75%;
-    width: 45%;
-    border-radius: 10px;
-    box-shadow: 0 0 1em #61e0ba;
-    border: 1px solid #3b8e7f;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.label-login-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+}
+.form_container {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label_login {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.input_label {
+
+}
+
+.labels-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-container {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
