@@ -1,6 +1,10 @@
+import { Component, useEffect, useState  } from 'react';
 import './Login.css'
+import api from '../../services/api.js'
 
-function Login() {
+export default class Login extends Component {
+
+  render() {
     return (
       <div class = 'container'>
       
@@ -32,6 +36,8 @@ function Login() {
         </div>
       </div>
     );
+
   }
+
+}
   
-export default Login;
